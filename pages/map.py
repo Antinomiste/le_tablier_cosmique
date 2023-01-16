@@ -4,9 +4,6 @@ import folium
 from streamlit_folium import st_folium
 import geopandas as gpd
 from shapely.geometry import shape as geoshape
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
 
 if "visibility" not in st.session_state:
     st.session_state.visibility = "visible"
