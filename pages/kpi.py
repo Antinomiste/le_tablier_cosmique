@@ -1,12 +1,6 @@
 import streamlit as st 
 import pandas as pd 
-import numpy as np 
-from datetime import datetime
-import requests
-import json
-import csv 
-import folium 
-import os
+import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
